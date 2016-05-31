@@ -58,13 +58,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yagop/node-telegram-bot-api.git"
+    "url": "https://github.com/WilixLead/node-telegram-bot-api.git"
   },
   "bugs": {
-    "url": "https://github.com/yagop/node-telegram-bot-api/issues"
+    "url": "https://github.com/WilixLead/node-telegram-bot-api/issues"
   },
-  "homepage": "https://github.com/yagop/node-telegram-bot-api",
+  "homepage": "https://github.com/WilixLead/node-telegram-bot-api",
   "contributors": [
+    {
+      "name": "Dmitry Aloyan",
+      "email": "root@wilix.ru",
+      "url": "https://github.com/WilixLead",
+      "contributions": 1,
+      "additions": 1,
+      "deletions": 1,
+      "hireable": null
+    },
     {
       "name": "Sebastian Troć",
       "email": "sebastian.troc@gucman.pl",

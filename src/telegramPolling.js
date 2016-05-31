@@ -1,3 +1,5 @@
+'use strict';
+
 const Promise = require('bluebird');
 const debug = require('debug')('node-telegram-bot-api');
 const request = require('request-promise');
@@ -5,11 +7,15 @@ const URL = require('url');
 
 class TelegramBotPolling {
 
-  constructor(token, options = {}, callback) {
+  constructor(token, options, callback) {
     // enable cancellation
     Promise.config({
-      cancellation: true,
+      cancellation: true
     });
+
+    if (!options) {
+      options = {};
+    }
 
     if (typeof options === 'function') {
       callback = options; // eslint-disable-line no-param-reassign

@@ -1,3 +1,5 @@
+'use strict';
+
 const TelegramPolling = require('../lib/telegramPolling');
 const Telegram = require('../lib/telegram');
 const Promise = require('bluebird');
